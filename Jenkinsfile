@@ -29,6 +29,7 @@ pipeline {
         stage('Test1') {
           steps {
             echo 'Test1 Application'
+            echo 'test 2 added here'
           }
         }
 
